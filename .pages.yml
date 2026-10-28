@@ -1,0 +1,289 @@
+media:
+  input: src/assets/images
+  output: assets/images
+content:
+- name: site
+  label: 网站内容
+  type: file
+  path: content/site-data.json
+  format: json
+  fields:
+  - name: profile
+    label: 个人资料
+    type: object
+    fields:
+    - name: name
+      label: 姓名
+      type: string
+    - name: english
+      label: 英文名
+      type: string
+    - name: role
+      label: 职务
+      type: string
+    - name: unit
+      label: 单位
+      type: string
+    - name: city
+      label: 城市
+      type: string
+    - name: email
+      label: 邮箱
+      type: string
+    - name: official
+      label: 官方主页
+      type: string
+    - name: intro
+      label: 首页简介
+      type: text
+    - name: bio
+      label: 个人简介段落
+      type: text
+      list: true
+    - name: officialLabel
+      label: 简介区官方主页按钮文字
+      type: string
+    - name: contactLabel
+      label: 联系区官方主页按钮文字
+      type: string
+  - name: hero
+    label: 首页大图与按钮
+    type: object
+    fields:
+    - name: image
+      label: 图片（上传或选择；留空不显示）
+      type: image
+    - name: imageAlt
+      label: 图片替代文字（简要描述画面）
+      type: string
+    - name: caption
+      label: 图片说明
+      type: text
+    - name: showCaption
+      label: 显示图片说明
+      type: boolean
+    - name: button
+      label: 按钮链接
+      type: object
+      fields:
+      - name: label
+        label: 按钮文字
+        type: string
+      - name: url
+        label: 链接地址（留空隐藏按钮）
+        type: string
+        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
+      - name: newTab
+        label: 在新窗口打开
+        type: boolean
+  - name: research
+    label: 研究方向
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: title
+      label: 名称
+      type: string
+    - name: description
+      label: 说明
+      type: text
+    - name: image
+      label: 图片（上传或选择；留空不显示）
+      type: image
+    - name: imageAlt
+      label: 图片替代文字（简要描述画面）
+      type: string
+    - name: caption
+      label: 图片说明
+      type: text
+    - name: button
+      label: 按钮链接
+      type: object
+      fields:
+      - name: label
+        label: 按钮文字
+        type: string
+      - name: url
+        label: 链接地址（留空隐藏按钮）
+        type: string
+        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
+      - name: newTab
+        label: 在新窗口打开
+        type: boolean
+  - name: projects
+    label: 精选项目
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: title
+      label: 项目名称
+      type: string
+    - name: description
+      label: 说明
+      type: text
+    - name: image
+      label: 图片（上传或选择；留空不显示）
+      type: image
+    - name: imageAlt
+      label: 图片替代文字（简要描述画面）
+      type: string
+    - name: caption
+      label: 图片说明
+      type: text
+    - name: button
+      label: 按钮链接
+      type: object
+      fields:
+      - name: label
+        label: 按钮文字
+        type: string
+      - name: url
+        label: 链接地址（留空隐藏按钮）
+        type: string
+        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
+      - name: newTab
+        label: 在新窗口打开
+        type: boolean
+  - name: teaching
+    label: 教学
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: category
+      label: 分类
+      type: string
+    - name: title
+      label: 课程名称
+      type: string
+    - name: description
+      label: 说明
+      type: text
+    - name: image
+      label: 图片（上传或选择；留空不显示）
+      type: image
+    - name: imageAlt
+      label: 图片替代文字（简要描述画面）
+      type: string
+    - name: caption
+      label: 图片说明
+      type: text
+    - name: button
+      label: 按钮链接
+      type: object
+      fields:
+      - name: label
+        label: 按钮文字
+        type: string
+      - name: url
+        label: 链接地址（留空隐藏按钮）
+        type: string
+        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
+      - name: newTab
+        label: 在新窗口打开
+        type: boolean
+  - name: talks
+    label: 讲座与动态
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{date} · {title}'
+    fields:
+    - name: date
+      label: 日期
+      type: string
+    - name: title
+      label: 标题
+      type: string
+    - name: description
+      label: 说明
+      type: text
+    - name: image
+      label: 图片（上传或选择；留空不显示）
+      type: image
+    - name: imageAlt
+      label: 图片替代文字（简要描述画面）
+      type: string
+    - name: caption
+      label: 图片说明
+      type: text
+    - name: button
+      label: 按钮链接
+      type: object
+      fields:
+      - name: label
+        label: 按钮文字
+        type: string
+      - name: url
+        label: 链接地址（留空隐藏按钮）
+        type: string
+        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
+      - name: newTab
+        label: 在新窗口打开
+        type: boolean
+  - name: publications
+    label: 学术成果
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{number} · {title}'
+    fields:
+    - name: type
+      label: 类型
+      type: select
+      options:
+        values:
+        - label: 期刊论文
+          value: journal
+        - label: 会议论文
+          value: conference
+        - label: 硕士论文
+          value: thesis
+    - name: number
+      label: 编号
+      type: string
+    - name: title
+      label: 题目
+      type: string
+    - name: authors
+      label: 作者
+      type: string
+    - name: venue
+      label: 期刊或单位
+      type: string
+    - name: year
+      label: 年份或卷期
+      type: string
+    - name: image
+      label: 图片（上传或选择；留空不显示）
+      type: image
+    - name: imageAlt
+      label: 图片替代文字（简要描述画面）
+      type: string
+    - name: caption
+      label: 图片说明
+      type: text
+    - name: button
+      label: 按钮链接
+      type: object
+      fields:
+      - name: label
+        label: 按钮文字
+        type: string
+      - name: url
+        label: 链接地址（留空隐藏按钮）
+        type: string
+        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
+      - name: newTab
+        label: 在新窗口打开
+        type: boolean

@@ -1,0 +1,460 @@
+{
+  "profile": {
+    "name": "黄旭升",
+    "english": "HUANG XUSHENG",
+    "role": "东南大学建筑学院副教授、硕士生导师；建筑系副主任",
+    "unit": "东南大学建筑学院 · 建筑系",
+    "city": "南京 · 中国",
+    "email": "huang_xusheng@seu.edu.cn",
+    "official": "https://arch.seu.edu.cn/hxs/main.psp",
+    "intro": "围绕建筑设计与理论、建筑设计教学法、数字城市设计及城市空间历史，开展研究与教学。",
+    "bio": [
+      "黄旭升，东南大学建筑学院副教授、硕士生导师；建筑系副主任。研究围绕建筑设计与理论、城市设计与理论、建筑设计教学法展开。",
+      "学术经历包括东南大学建筑学硕士、苏黎世联邦理工学院（ETH Zurich）博士，以及新加坡苏黎世联邦理工学院研究中心（Singapore-ETH Center）博士后研究员。具体年份与个人照片待确认。"
+    ],
+    "officialLabel": "访问东南大学官方主页 ↗",
+    "contactLabel": "官方主页 ↗"
+  },
+  "research": [
+    {
+      "title": "建筑设计与理论",
+      "description": "建筑设计理论、设计方法与建筑实践。",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "title": "建筑设计教学法",
+      "description": "建筑教育、基础训练与课程组织。",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "title": "数字城市设计",
+      "description": "数字城市、城市空间与设计方法。",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "title": "城市空间历史",
+      "description": "建筑历史、城市空间历史与案例研究。",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    }
+  ],
+  "projects": [
+    {
+      "title": "建筑理论与作品阐释",
+      "description": "研究项目占位 · 资料待补充",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "title": "城市空间与小城研究",
+      "description": "研究项目占位 · 资料待补充",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "title": "设计教学方法实验",
+      "description": "研究项目占位 · 资料待补充",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    }
+  ],
+  "teaching": [
+    {
+      "category": "本科教学 UNDERGRADUATE",
+      "title": "本科二年级建筑设计",
+      "description": "与迪特玛·埃伯勒合作探索建筑理论与方法；授课年份待补。",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "category": "理论课程 SEMINAR",
+      "title": "名师前沿理论课程",
+      "description": "国际化与本土探索，课程周期与教学材料待补。",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "category": "教学方法 METHOD",
+      "title": "建筑基础教学改革",
+      "description": "参与多项教学改革课题；教指委优秀教案、优秀作业待核。",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    }
+  ],
+  "talks": [
+    {
+      "date": "2026",
+      "title": "讲座与学术活动",
+      "description": "活动题目、地点、主办方与现场图像将在资料确认后发布。",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "date": "—",
+      "title": "最新动态",
+      "description": "暂无可公开的已确认动态。",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    }
+  ],
+  "publications": [
+    {
+      "type": "journal",
+      "number": "01",
+      "title": "“好”小区“好房子”视角下的国际高品质住房建设实践经验及启示",
+      "authors": "陈俊海、鲍莉、黄旭升、郭菂、王翰乾",
+      "venue": "《中外建筑》",
+      "year": "2026（06）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "02",
+      "title": "建筑教育的价值、方法和组织：迪特玛·埃伯勒访谈",
+      "authors": "黄旭升、迪特玛·埃伯勒",
+      "venue": "《建筑师》",
+      "year": "2026（02）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "03",
+      "title": "建筑结构——理论探索与教学训练",
+      "authors": "黄旭升",
+      "venue": "《新建筑》",
+      "year": "2025（06）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "04",
+      "title": "迈向理想的现实主义——鲍姆施拉格-埃伯勒建筑事务所的住宅设计",
+      "authors": "黄旭升",
+      "venue": "《建筑技艺（中英文）》",
+      "year": "2024（07）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "05",
+      "title": "知识架构与设计创新——东南大学建筑学二年级设计教学探讨",
+      "authors": "黄旭升",
+      "venue": "《建筑学报》",
+      "year": "2024（03）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "06",
+      "title": "“建筑计划”——理论探索与教学训练",
+      "authors": "黄旭升",
+      "venue": "《新建筑》",
+      "year": "2022（05）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "07",
+      "title": "建造实践与设计教学——对2018同济国际建造节东南大学获奖作品的思考",
+      "authors": "黄旭升",
+      "venue": "《室内设计与装修》",
+      "year": "2021（11）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "08",
+      "title": "表皮的自主性——理论探索与教学训练",
+      "authors": "黄旭升",
+      "venue": "《新建筑》",
+      "year": "2021（05）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "09",
+      "title": "教育建筑的空间组织——以瑞士3所紧凑型学校为例",
+      "authors": "黄旭升",
+      "venue": "《室内设计与装修》",
+      "year": "2021（07）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "10",
+      "title": "苏黎世联邦理工学院模式：建构以设计为中心的师资结构",
+      "authors": "迪特玛·埃伯勒、黄旭升",
+      "venue": "《建筑学报》",
+      "year": "2021（04）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "11",
+      "title": "从城市到建筑——分解与整合的建筑设计教学探讨",
+      "authors": "黄旭升、朱渊、郭菂",
+      "venue": "《建筑学报》",
+      "year": "2021（03）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "12",
+      "title": "解析新南威尔士大学学馆",
+      "authors": "陈宇、黄旭升",
+      "venue": "《山西建筑》",
+      "year": "2009（16）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "13",
+      "title": "清代巴蜀会馆戏场建筑探析",
+      "authors": "崔晓鹏、黄旭升",
+      "venue": "《四川建筑》",
+      "year": "2009（02）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "journal",
+      "number": "14",
+      "title": "对比中求均衡——墨尔本博物馆设计分析",
+      "authors": "黄旭升、陆宇",
+      "venue": "《建筑与环境》",
+      "year": "2009（02）",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "conference",
+      "number": "15",
+      "title": "城市建筑：东南大学二年级基础教学与设计方法探讨",
+      "authors": "黄旭升",
+      "venue": "2022中国高等学校建筑教育学术研讨会暨全国高校建筑学院长系主任大会",
+      "year": "2023",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "conference",
+      "number": "16",
+      "title": "基础知识的分解传递——东南大学二年级建筑设计教学试验探索",
+      "authors": "朱渊、黄旭升、郭菂",
+      "venue": "2020—2021全国高等学校建筑教育学术研讨会暨院长系主任大会",
+      "year": "2021",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    },
+    {
+      "type": "thesis",
+      "number": "17",
+      "title": "介入城市——建筑中空间设计的理论与方法新探",
+      "authors": "黄旭升",
+      "venue": "东南大学",
+      "year": "2009",
+      "image": "",
+      "imageAlt": "",
+      "caption": "",
+      "button": {
+        "label": "查看详情 ↗",
+        "url": "",
+        "newTab": true
+      }
+    }
+  ],
+  "hero": {
+    "image": "assets/images/architecture/hero-reference-placeholder.jpg",
+    "imageAlt": "建筑图像占位",
+    "caption": "建筑图像占位\n可替换为已确认的项目照片",
+    "showCaption": false,
+    "button": {
+      "label": "查看个人简介 ↗",
+      "url": "#about",
+      "newTab": false
+    }
+  }
+}
