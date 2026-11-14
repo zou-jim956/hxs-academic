@@ -1,289 +1,1345 @@
 media:
-  input: src/assets/images
-  output: assets/images
+  input: media
+  output: media
 content:
-- name: site
-  label: 网站内容
-  type: file
-  path: content/site-data.json
-  format: json
-  fields:
-  - name: profile
-    label: 个人资料
-    type: object
+  - name: index
+    label: "首页"
+    type: file
+    path: content/index.json
+    format: json
     fields:
-    - name: name
-      label: 姓名
-      type: string
-    - name: english
-      label: 英文名
-      type: string
-    - name: role
-      label: 职务
-      type: string
-    - name: unit
-      label: 单位
-      type: string
-    - name: city
-      label: 城市
-      type: string
-    - name: email
-      label: 邮箱
-      type: string
-    - name: official
-      label: 官方主页
-      type: string
-    - name: intro
-      label: 首页简介
-      type: text
-    - name: bio
-      label: 个人简介段落
-      type: text
-      list: true
-    - name: officialLabel
-      label: 简介区官方主页按钮文字
-      type: string
-    - name: contactLabel
-      label: 联系区官方主页按钮文字
-      type: string
-  - name: hero
-    label: 首页大图与按钮
-    type: object
+      - name: texts_000
+        label: "文字：首页 | 黄旭升工作室"
+        type: text
+      - name: links_000
+        label: "链接：index.html"
+        type: string
+      - name: texts_001
+        label: "文字：黄旭升工作室"
+        type: text
+      - name: links_001
+        label: "链接：index.html"
+        type: string
+      - name: texts_002
+        label: "文字：首页"
+        type: text
+      - name: links_002
+        label: "链接：about.html"
+        type: string
+      - name: texts_003
+        label: "文字：关于"
+        type: text
+      - name: links_003
+        label: "链接：projects.html"
+        type: string
+      - name: texts_004
+        label: "文字：精选项目"
+        type: text
+      - name: links_004
+        label: "链接：publications.html"
+        type: string
+      - name: texts_005
+        label: "文字：学术成果"
+        type: text
+      - name: links_005
+        label: "链接：teaching.html"
+        type: string
+      - name: texts_006
+        label: "文字：教学｜Design Studio"
+        type: text
+      - name: texts_007
+        label: "文字：黄旭升"
+        type: text
+      - name: texts_008
+        label: "文字：HUANG XUSHENG"
+        type: text
+      - name: texts_009
+        label: "文字：黄旭升，东南大学建筑学院副教授，东南大学建筑学硕士，苏黎世联邦理工学院（ETH Zuric"
+        type: text
+      - name: links_006
+        label: "链接：about.html"
+        type: string
+      - name: texts_010
+        label: "文字：了解更多 About →"
+        type: text
+      - name: images_000
+        label: "图片：黄旭升副教授肖像"
+        type: image
+      - name: alt_images_000
+        label: "图片说明：黄旭升副教授肖像"
+        type: string
+      - name: texts_011
+        label: "文字：研究方向｜Research Areas"
+        type: text
+      - name: images_001
+        label: "图片：建筑设计结构模型"
+        type: image
+      - name: alt_images_001
+        label: "图片说明：建筑设计结构模型"
+        type: string
+      - name: texts_012
+        label: "文字：建筑设计"
+        type: text
+      - name: texts_013
+        label: "文字：Architectural Design"
+        type: text
+      - name: images_002
+        label: "图片：建筑设计教学场地模型"
+        type: image
+      - name: alt_images_002
+        label: "图片说明：建筑设计教学场地模型"
+        type: string
+      - name: texts_014
+        label: "文字：建筑设计教学法"
+        type: text
+      - name: texts_015
+        label: "文字：Design Teaching"
+        type: text
+      - name: images_003
+        label: "图片：城市空间数据分析图"
+        type: image
+      - name: alt_images_003
+        label: "图片说明：城市空间数据分析图"
+        type: string
+      - name: texts_016
+        label: "文字：数字城市设计"
+        type: text
+      - name: texts_017
+        label: "文字：Digital Urbanism"
+        type: text
+      - name: images_004
+        label: "图片：南京颐和路历史街区"
+        type: image
+      - name: alt_images_004
+        label: "图片说明：南京颐和路历史街区"
+        type: string
+      - name: texts_018
+        label: "文字：城市空间历史"
+        type: text
+      - name: texts_019
+        label: "文字：Urban Spatial History"
+        type: text
+      - name: links_007
+        label: "链接：projects.html"
+        type: string
+      - name: texts_020
+        label: "文字：精选项目｜Research"
+        type: text
+      - name: texts_021
+        label: "文字：RESEARCH / 南京公共空间"
+        type: text
+      - name: links_008
+        label: "链接：projects.html#yihe"
+        type: string
+      - name: texts_022
+        label: "文字：南京公共空间的类型和形态分析：颐和路"
+        type: text
+      - name: texts_023
+        label: "文字：RESEARCH / 南京公共空间"
+        type: text
+      - name: links_009
+        label: "链接：projects.html#xinjiekou"
+        type: string
+      - name: texts_024
+        label: "文字：南京公共空间的类型和形态分析：新街口广场"
+        type: text
+      - name: texts_025
+        label: "文字：RESEARCH / 南京公共空间"
+        type: text
+      - name: links_010
+        label: "链接：projects.html#streets"
+        type: string
+      - name: texts_026
+        label: "文字：南京公共空间的品质和活力分析：三条街道"
+        type: text
+      - name: texts_027
+        label: "文字：RESEARCH / 南京公共空间"
+        type: text
+      - name: links_011
+        label: "链接：projects.html#squares"
+        type: string
+      - name: texts_028
+        label: "文字：南京公共空间的品质和活力分析：十个广场"
+        type: text
+      - name: links_012
+        label: "链接：publications.html"
+        type: string
+      - name: texts_029
+        label: "文字：学术成果｜Publications"
+        type: text
+      - name: texts_030
+        label: "文字：目前收录13项学术成果：11篇期刊论文和2篇会议论文。其中包括《“好”小区“好房子”视角下"
+        type: text
+      - name: links_013
+        label: "链接：teaching.html"
+        type: string
+      - name: texts_031
+        label: "文字：教学｜Design Studio"
+        type: text
+      - name: links_014
+        label: "链接：teaching.html#place"
+        type: string
+      - name: texts_032
+        label: "文字：场所 Place"
+        type: text
+      - name: links_015
+        label: "链接：teaching.html#structure"
+        type: string
+      - name: texts_033
+        label: "文字：结构 Structure"
+        type: text
+      - name: links_016
+        label: "链接：teaching.html#envelope"
+        type: string
+      - name: texts_034
+        label: "文字：围护 Envelope"
+        type: text
+      - name: links_017
+        label: "链接：teaching.html#program"
+        type: string
+      - name: texts_035
+        label: "文字：功能 Program"
+        type: text
+      - name: links_018
+        label: "链接：teaching.html#materiality"
+        type: string
+      - name: texts_036
+        label: "文字：材料 Materiality"
+        type: text
+      - name: links_019
+        label: "链接：teaching.html#project"
+        type: string
+      - name: texts_037
+        label: "文字：综合设计 Project"
+        type: text
+      - name: texts_038
+        label: "文字：动态｜News"
+        type: text
+      - name: texts_039
+        label: "文字：敬请期待"
+        type: text
+      - name: texts_040
+        label: "文字：联系｜Contact"
+        type: text
+      - name: texts_041
+        label: "文字：东南大学建筑学院建筑系 · 邮箱："
+        type: text
+      - name: links_020
+        label: "链接：mailto:huang_xusheng@seu.edu.cn"
+        type: string
+      - name: texts_042
+        label: "文字：huang_xusheng@seu.edu.cn"
+        type: text
+      - name: texts_043
+        label: "文字：· 教师主页："
+        type: text
+      - name: links_021
+        label: "链接：https://arch.seu.edu.cn/hxs/main.psp"
+        type: string
+      - name: texts_044
+        label: "文字：https://arch.seu.edu.cn/hxs/main.psp"
+        type: text
+  - name: about
+    label: "关于"
+    type: file
+    path: content/about.json
+    format: json
     fields:
-    - name: image
-      label: 图片（上传或选择；留空不显示）
-      type: image
-    - name: imageAlt
-      label: 图片替代文字（简要描述画面）
-      type: string
-    - name: caption
-      label: 图片说明
-      type: text
-    - name: showCaption
-      label: 显示图片说明
-      type: boolean
-    - name: button
-      label: 按钮链接
-      type: object
-      fields:
-      - name: label
-        label: 按钮文字
+      - name: texts_000
+        label: "文字：关于 | 黄旭升工作室"
+        type: text
+      - name: links_000
+        label: "链接：index.html"
         type: string
-      - name: url
-        label: 链接地址（留空隐藏按钮）
+      - name: texts_001
+        label: "文字：黄旭升工作室"
+        type: text
+      - name: links_001
+        label: "链接：index.html"
         type: string
-        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
-      - name: newTab
-        label: 在新窗口打开
-        type: boolean
-  - name: research
-    label: 研究方向
-    type: object
-    list:
-      collapsible:
-        collapsed: true
-        summary: '{title}'
-    fields:
-    - name: title
-      label: 名称
-      type: string
-    - name: description
-      label: 说明
-      type: text
-    - name: image
-      label: 图片（上传或选择；留空不显示）
-      type: image
-    - name: imageAlt
-      label: 图片替代文字（简要描述画面）
-      type: string
-    - name: caption
-      label: 图片说明
-      type: text
-    - name: button
-      label: 按钮链接
-      type: object
-      fields:
-      - name: label
-        label: 按钮文字
+      - name: texts_002
+        label: "文字：首页"
+        type: text
+      - name: links_002
+        label: "链接：about.html"
         type: string
-      - name: url
-        label: 链接地址（留空隐藏按钮）
+      - name: texts_003
+        label: "文字：关于"
+        type: text
+      - name: links_003
+        label: "链接：projects.html"
         type: string
-        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
-      - name: newTab
-        label: 在新窗口打开
-        type: boolean
+      - name: texts_004
+        label: "文字：精选项目"
+        type: text
+      - name: links_004
+        label: "链接：publications.html"
+        type: string
+      - name: texts_005
+        label: "文字：学术成果"
+        type: text
+      - name: links_005
+        label: "链接：teaching.html"
+        type: string
+      - name: texts_006
+        label: "文字：教学｜Design Studio"
+        type: text
+      - name: texts_007
+        label: "文字：个人简介"
+        type: text
+      - name: texts_008
+        label: "文字：黄旭升，东南大学建筑学院副教授、硕士生导师。研究与教学围绕建筑设计与理论、城市设计与理论及"
+        type: text
+      - name: texts_009
+        label: "文字：教育与学术经历"
+        type: text
+      - name: texts_010
+        label: "文字：东南大学建筑学硕士"
+        type: text
+      - name: texts_011
+        label: "文字：苏黎世联邦理工学院（ETH Zurich）博士"
+        type: text
+      - name: texts_012
+        label: "文字：新加坡苏黎世联邦理工学院研究中心（Singapore-ETH Center）博士后研究员"
+        type: text
+      - name: texts_013
+        label: "文字：现任东南大学建筑学院副教授、硕士生导师"
+        type: text
+      - name: texts_014
+        label: "文字：研究方向"
+        type: text
+      - name: texts_015
+        label: "文字：建筑设计与理论、城市设计与理论、建筑设计教学法；关注建筑理论与方法、数字城市设计和城市空间"
+        type: text
+      - name: texts_016
+        label: "文字：科研与教学"
+        type: text
+      - name: texts_017
+        label: "文字：主持国家自然科学基金青年等多项基金项目，2018年获江苏省“双创博士”。参与本科二年级建筑"
+        type: text
+      - name: texts_018
+        label: "文字：联系"
+        type: text
+      - name: texts_019
+        label: "文字：东南大学建筑学院建筑系｜邮箱："
+        type: text
+      - name: links_006
+        label: "链接：mailto:huang_xusheng@seu.edu.cn"
+        type: string
+      - name: texts_020
+        label: "文字：huang_xusheng@seu.edu.cn"
+        type: text
+      - name: texts_021
+        label: "文字：｜"
+        type: text
+      - name: links_007
+        label: "链接：https://arch.seu.edu.cn/hxs/main.psp"
+        type: string
+      - name: texts_022
+        label: "文字：东南大学教师主页"
+        type: text
   - name: projects
-    label: 精选项目
-    type: object
-    list:
-      collapsible:
-        collapsed: true
-        summary: '{title}'
+    label: "精选项目"
+    type: file
+    path: content/projects.json
+    format: json
     fields:
-    - name: title
-      label: 项目名称
-      type: string
-    - name: description
-      label: 说明
-      type: text
-    - name: image
-      label: 图片（上传或选择；留空不显示）
-      type: image
-    - name: imageAlt
-      label: 图片替代文字（简要描述画面）
-      type: string
-    - name: caption
-      label: 图片说明
-      type: text
-    - name: button
-      label: 按钮链接
-      type: object
-      fields:
-      - name: label
-        label: 按钮文字
+      - name: texts_000
+        label: "文字：精选项目 | 黄旭升工作室"
+        type: text
+      - name: links_000
+        label: "链接：index.html"
         type: string
-      - name: url
-        label: 链接地址（留空隐藏按钮）
+      - name: texts_001
+        label: "文字：黄旭升工作室"
+        type: text
+      - name: links_001
+        label: "链接：index.html"
         type: string
-        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
-      - name: newTab
-        label: 在新窗口打开
-        type: boolean
-  - name: teaching
-    label: 教学
-    type: object
-    list:
-      collapsible:
-        collapsed: true
-        summary: '{title}'
-    fields:
-    - name: category
-      label: 分类
-      type: string
-    - name: title
-      label: 课程名称
-      type: string
-    - name: description
-      label: 说明
-      type: text
-    - name: image
-      label: 图片（上传或选择；留空不显示）
-      type: image
-    - name: imageAlt
-      label: 图片替代文字（简要描述画面）
-      type: string
-    - name: caption
-      label: 图片说明
-      type: text
-    - name: button
-      label: 按钮链接
-      type: object
-      fields:
-      - name: label
-        label: 按钮文字
+      - name: texts_002
+        label: "文字：首页"
+        type: text
+      - name: links_002
+        label: "链接：about.html"
         type: string
-      - name: url
-        label: 链接地址（留空隐藏按钮）
+      - name: texts_003
+        label: "文字：关于"
+        type: text
+      - name: links_003
+        label: "链接：projects.html"
         type: string
-        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
-      - name: newTab
-        label: 在新窗口打开
-        type: boolean
-  - name: talks
-    label: 讲座与动态
-    type: object
-    list:
-      collapsible:
-        collapsed: true
-        summary: '{date} · {title}'
-    fields:
-    - name: date
-      label: 日期
-      type: string
-    - name: title
-      label: 标题
-      type: string
-    - name: description
-      label: 说明
-      type: text
-    - name: image
-      label: 图片（上传或选择；留空不显示）
-      type: image
-    - name: imageAlt
-      label: 图片替代文字（简要描述画面）
-      type: string
-    - name: caption
-      label: 图片说明
-      type: text
-    - name: button
-      label: 按钮链接
-      type: object
-      fields:
-      - name: label
-        label: 按钮文字
+      - name: texts_004
+        label: "文字：精选项目"
+        type: text
+      - name: links_004
+        label: "链接：publications.html"
         type: string
-      - name: url
-        label: 链接地址（留空隐藏按钮）
+      - name: texts_005
+        label: "文字：学术成果"
+        type: text
+      - name: links_005
+        label: "链接：teaching.html"
         type: string
-        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
-      - name: newTab
-        label: 在新窗口打开
-        type: boolean
+      - name: texts_006
+        label: "文字：教学｜Design Studio"
+        type: text
+      - name: texts_007
+        label: "文字：南京公共空间的类型和形态分析：颐和路"
+        type: text
+      - name: texts_008
+        label: "文字：以南京颐和路住宅区为对象，梳理历史形成、街道与广场体系，以及建筑、院墙、绿化对公共空间尺度"
+        type: text
+      - name: links_006
+        label: "链接：media/2026/11/research-page-02.jpg"
+        type: string
+      - name: images_000
+        label: "图片：颐和路公共空间类型形态研究"
+        type: image
+      - name: alt_images_000
+        label: "图片说明：颐和路公共空间类型形态研究"
+        type: string
+      - name: links_007
+        label: "链接：media/2026/11/research-page-03.jpg"
+        type: string
+      - name: images_001
+        label: "图片：颐和路公共空间类型形态研究"
+        type: image
+      - name: alt_images_001
+        label: "图片说明：颐和路公共空间类型形态研究"
+        type: string
+      - name: links_008
+        label: "链接：media/2026/11/research-page-04.jpg"
+        type: string
+      - name: images_002
+        label: "图片：颐和路公共空间类型形态研究"
+        type: image
+      - name: alt_images_002
+        label: "图片说明：颐和路公共空间类型形态研究"
+        type: string
+      - name: links_009
+        label: "链接：media/2026/11/research-page-05.jpg"
+        type: string
+      - name: images_003
+        label: "图片：颐和路公共空间类型形态研究"
+        type: image
+      - name: alt_images_003
+        label: "图片说明：颐和路公共空间类型形态研究"
+        type: string
+      - name: links_010
+        label: "链接：media/2026/11/research-page-06.jpg"
+        type: string
+      - name: images_004
+        label: "图片：颐和路公共空间类型形态研究"
+        type: image
+      - name: alt_images_004
+        label: "图片说明：颐和路公共空间类型形态研究"
+        type: string
+      - name: links_011
+        label: "链接：media/2026/11/research-page-07.jpg"
+        type: string
+      - name: images_005
+        label: "图片：颐和路公共空间类型形态研究"
+        type: image
+      - name: alt_images_005
+        label: "图片说明：颐和路公共空间类型形态研究"
+        type: string
+      - name: texts_009
+        label: "文字：南京公共空间的类型和形态分析：新街口广场"
+        type: text
+      - name: texts_010
+        label: "文字：以南京新街口广场为对象，梳理广场的形成与变化，再从周边建筑、街道关系和平剖面图入手，分析广"
+        type: text
+      - name: links_012
+        label: "链接：media/2026/11/research-page-08.jpg"
+        type: string
+      - name: images_006
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_006
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_013
+        label: "链接：media/2026/11/research-page-09.jpg"
+        type: string
+      - name: images_007
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_007
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_014
+        label: "链接：media/2026/11/research-page-10.jpg"
+        type: string
+      - name: images_008
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_008
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_015
+        label: "链接：media/2026/11/research-page-11.jpg"
+        type: string
+      - name: images_009
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_009
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_016
+        label: "链接：media/2026/11/research-page-12.jpg"
+        type: string
+      - name: images_010
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_010
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_017
+        label: "链接：media/2026/11/research-page-13.jpg"
+        type: string
+      - name: images_011
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_011
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_018
+        label: "链接：media/2026/11/research-page-14.jpg"
+        type: string
+      - name: images_012
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_012
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_019
+        label: "链接：media/2026/11/research-page-15.jpg"
+        type: string
+      - name: images_013
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_013
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_020
+        label: "链接：media/2026/11/research-page-16.jpg"
+        type: string
+      - name: images_014
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_014
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_021
+        label: "链接：media/2026/11/research-page-17.jpg"
+        type: string
+      - name: images_015
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_015
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: links_022
+        label: "链接：media/2026/11/research-page-18.jpg"
+        type: string
+      - name: images_016
+        label: "图片：新街口广场公共空间类型形态研究"
+        type: image
+      - name: alt_images_016
+        label: "图片说明：新街口广场公共空间类型形态研究"
+        type: string
+      - name: texts_011
+        label: "文字：南京公共空间的品质和活力分析：三条街道"
+        type: text
+      - name: texts_012
+        label: "文字：选取南京不同时期的街道样本，对街道形态、空间品质和活力进行比较。结合街景、图底、形态指标与"
+        type: text
+      - name: links_023
+        label: "链接：media/2026/11/research-page-19.jpg"
+        type: string
+      - name: images_017
+        label: "图片：三条街道公共空间品质与活力分析"
+        type: image
+      - name: alt_images_017
+        label: "图片说明：三条街道公共空间品质与活力分析"
+        type: string
+      - name: links_024
+        label: "链接：media/2026/11/research-page-20.jpg"
+        type: string
+      - name: images_018
+        label: "图片：三条街道公共空间品质与活力分析"
+        type: image
+      - name: alt_images_018
+        label: "图片说明：三条街道公共空间品质与活力分析"
+        type: string
+      - name: links_025
+        label: "链接：media/2026/11/research-page-21.jpg"
+        type: string
+      - name: images_019
+        label: "图片：三条街道公共空间品质与活力分析"
+        type: image
+      - name: alt_images_019
+        label: "图片说明：三条街道公共空间品质与活力分析"
+        type: string
+      - name: links_026
+        label: "链接：media/2026/11/research-page-22.jpg"
+        type: string
+      - name: images_020
+        label: "图片：三条街道公共空间品质与活力分析"
+        type: image
+      - name: alt_images_020
+        label: "图片说明：三条街道公共空间品质与活力分析"
+        type: string
+      - name: texts_013
+        label: "文字：南京公共空间的品质和活力分析：十个广场"
+        type: text
+      - name: texts_014
+        label: "文字：以南京十个城市广场为样本，结合道路与步行可达性、街景、兴趣点和不同时段活力数据，分析广场的"
+        type: text
+      - name: links_027
+        label: "链接：media/2026/11/research-page-23.jpg"
+        type: string
+      - name: images_021
+        label: "图片：十个广场公共空间品质与活力分析"
+        type: image
+      - name: alt_images_021
+        label: "图片说明：十个广场公共空间品质与活力分析"
+        type: string
+      - name: links_028
+        label: "链接：media/2026/11/research-page-24.jpg"
+        type: string
+      - name: images_022
+        label: "图片：十个广场公共空间品质与活力分析"
+        type: image
+      - name: alt_images_022
+        label: "图片说明：十个广场公共空间品质与活力分析"
+        type: string
+      - name: links_029
+        label: "链接：media/2026/11/research-page-25.jpg"
+        type: string
+      - name: images_023
+        label: "图片：十个广场公共空间品质与活力分析"
+        type: image
+      - name: alt_images_023
+        label: "图片说明：十个广场公共空间品质与活力分析"
+        type: string
+      - name: links_030
+        label: "链接：media/2026/11/research-page-26.jpg"
+        type: string
+      - name: images_024
+        label: "图片：十个广场公共空间品质与活力分析"
+        type: image
+      - name: alt_images_024
+        label: "图片说明：十个广场公共空间品质与活力分析"
+        type: string
   - name: publications
-    label: 学术成果
-    type: object
-    list:
-      collapsible:
-        collapsed: true
-        summary: '{number} · {title}'
+    label: "学术成果"
+    type: file
+    path: content/publications.json
+    format: json
     fields:
-    - name: type
-      label: 类型
-      type: select
-      options:
-        values:
-        - label: 期刊论文
-          value: journal
-        - label: 会议论文
-          value: conference
-        - label: 硕士论文
-          value: thesis
-    - name: number
-      label: 编号
-      type: string
-    - name: title
-      label: 题目
-      type: string
-    - name: authors
-      label: 作者
-      type: string
-    - name: venue
-      label: 期刊或单位
-      type: string
-    - name: year
-      label: 年份或卷期
-      type: string
-    - name: image
-      label: 图片（上传或选择；留空不显示）
-      type: image
-    - name: imageAlt
-      label: 图片替代文字（简要描述画面）
-      type: string
-    - name: caption
-      label: 图片说明
-      type: text
-    - name: button
-      label: 按钮链接
-      type: object
-      fields:
-      - name: label
-        label: 按钮文字
+      - name: texts_000
+        label: "文字：学术成果 | 黄旭升工作室"
+        type: text
+      - name: links_000
+        label: "链接：index.html"
         type: string
-      - name: url
-        label: 链接地址（留空隐藏按钮）
+      - name: texts_001
+        label: "文字：黄旭升工作室"
+        type: text
+      - name: links_001
+        label: "链接：index.html"
         type: string
-        description: 填写 https:// 完整网址、#about 等页内锚点，或 assets/ 开头的站内路径。
-      - name: newTab
-        label: 在新窗口打开
-        type: boolean
+      - name: texts_002
+        label: "文字：首页"
+        type: text
+      - name: links_002
+        label: "链接：about.html"
+        type: string
+      - name: texts_003
+        label: "文字：关于"
+        type: text
+      - name: links_003
+        label: "链接：projects.html"
+        type: string
+      - name: texts_004
+        label: "文字：精选项目"
+        type: text
+      - name: links_004
+        label: "链接：publications.html"
+        type: string
+      - name: texts_005
+        label: "文字：学术成果"
+        type: text
+      - name: links_005
+        label: "链接：teaching.html"
+        type: string
+      - name: texts_006
+        label: "文字：教学｜Design Studio"
+        type: text
+      - name: texts_007
+        label: "文字：教学"
+        type: text
+      - name: links_006
+        label: "链接：al/portal/client/paper/40a02c4ce38243c91d6512e0eb31aa0c"
+        type: string
+      - name: texts_008
+        label: "文字：建筑教育的价值、方法和组织：迪特玛·埃伯勒访谈"
+        type: text
+      - name: texts_009
+        label: "文字：黄旭升、迪特玛·埃伯勒｜《建筑师》2026（02）"
+        type: text
+      - name: links_007
+        label: "链接：p1yDrg3LMnJdJfnOlaM6XQ==&uniplatform=NZKPT&language=CHS"
+        type: string
+      - name: texts_010
+        label: "文字：建筑结构——理论探索与教学训练"
+        type: text
+      - name: texts_011
+        label: "文字：黄旭升｜《新建筑》2025（06）"
+        type: text
+      - name: links_008
+        label: "链接：0d3r2_hFmqitF_6E7HKxUg==&uniplatform=NZKPT&language=CHS"
+        type: string
+      - name: texts_012
+        label: "文字：知识架构与设计创新——东南大学建筑学二年级设计教学探讨"
+        type: text
+      - name: texts_013
+        label: "文字：黄旭升｜《建筑学报》2024（03）"
+        type: text
+      - name: links_009
+        label: "链接：1UPxq7UrSfgr0rjz6AXrbQ==&uniplatform=NZKPT&language=CHS"
+        type: string
+      - name: texts_014
+        label: "文字：“建筑计划”——理论探索与教学训练"
+        type: text
+      - name: texts_015
+        label: "文字：黄旭升｜《新建筑》2022（05）"
+        type: text
+      - name: texts_016
+        label: "文字：建造实践与设计教学——对2018同济国际建造节东南大学获奖作品的思考"
+        type: text
+      - name: texts_017
+        label: "文字：黄旭升｜《室内设计与装修》2021（11）"
+        type: text
+      - name: links_010
+        label: "链接：zpNwZlSrR-RIv9E2gUwQEw==&uniplatform=NZKPT&language=CHS"
+        type: string
+      - name: texts_018
+        label: "文字：表皮的自主性——理论探索与教学训练"
+        type: text
+      - name: texts_019
+        label: "文字：黄旭升｜《新建筑》2021（05）"
+        type: text
+      - name: links_011
+        label: "链接：aCPcHs_KGo8YOWjfXWX9_w==&uniplatform=NZKPT&language=CHS"
+        type: string
+      - name: texts_020
+        label: "文字：苏黎世联邦理工学院模式：建构以设计为中心的师资结构"
+        type: text
+      - name: texts_021
+        label: "文字：迪特玛·埃伯勒、黄旭升｜《建筑学报》2021（04）"
+        type: text
+      - name: links_012
+        label: "链接：-wAsRiK17r30UG0aZgwBUA==&uniplatform=NZKPT&language=CHS"
+        type: string
+      - name: texts_022
+        label: "文字：从城市到建筑——分解与整合的建筑设计教学探讨"
+        type: text
+      - name: texts_023
+        label: "文字：黄旭升、朱渊、郭菂｜《建筑学报》2021（03）"
+        type: text
+      - name: links_013
+        label: "链接：P9vYQHI7IswqXBDk79P2Xg==&uniplatform=NZKPT&language=CHS"
+        type: string
+      - name: texts_024
+        label: "文字：城市建筑：东南大学二年级基础教学与设计方法探讨"
+        type: text
+      - name: texts_025
+        label: "文字：黄旭升｜2022中国高等学校建筑教育学术研讨会暨全国高校建筑学院长系主任大会，2023"
+        type: text
+      - name: texts_026
+        label: "文字：基础知识的分解传递——东南大学二年级建筑设计教学试验探索"
+        type: text
+      - name: texts_027
+        label: "文字：朱渊、黄旭升、郭菂｜2020—2021全国高等学校建筑教育学术研讨会暨院长系主任大会，20"
+        type: text
+      - name: texts_028
+        label: "文字：城市空间历史与遗产"
+        type: text
+      - name: texts_029
+        label: "文字：包括城市与建筑空间、建筑案例和历史遗产相关研究。"
+        type: text
+      - name: texts_030
+        label: "文字：“好”小区“好房子”视角下的国际高品质住房建设实践经验及启示"
+        type: text
+      - name: texts_031
+        label: "文字：陈俊海、鲍莉、黄旭升、郭菂、王翰乾｜《中外建筑》2026（06）"
+        type: text
+      - name: links_014
+        label: "链接：rJjEhmS04jyH5H2WXF5UnA==&uniplatform=NZKPT&language=CHS"
+        type: string
+      - name: texts_032
+        label: "文字：迈向理想的现实主义——鲍姆施拉格-埃伯勒建筑事务所的住宅设计"
+        type: text
+      - name: texts_033
+        label: "文字：黄旭升｜《建筑技艺（中英文）》2024（07）"
+        type: text
+      - name: links_015
+        label: "链接：zN-800mFtl12emXIMljyOA==&uniplatform=NZKPT&language=CHS"
+        type: string
+      - name: texts_034
+        label: "文字：教育建筑的空间组织——以瑞士3所紧凑型学校为例"
+        type: text
+      - name: texts_035
+        label: "文字：黄旭升｜《室内设计与装修》2021（07）"
+        type: text
+  - name: teaching
+    label: "教学"
+    type: file
+    path: content/teaching.json
+    format: json
+    fields:
+      - name: texts_000
+        label: "文字：教学｜Design Studio | 黄旭升工作室"
+        type: text
+      - name: links_000
+        label: "链接：index.html"
+        type: string
+      - name: texts_001
+        label: "文字：黄旭升工作室"
+        type: text
+      - name: links_001
+        label: "链接：index.html"
+        type: string
+      - name: texts_002
+        label: "文字：首页"
+        type: text
+      - name: links_002
+        label: "链接：about.html"
+        type: string
+      - name: texts_003
+        label: "文字：关于"
+        type: text
+      - name: links_003
+        label: "链接：projects.html"
+        type: string
+      - name: texts_004
+        label: "文字：精选项目"
+        type: text
+      - name: links_004
+        label: "链接：publications.html"
+        type: string
+      - name: texts_005
+        label: "文字：学术成果"
+        type: text
+      - name: links_005
+        label: "链接：teaching.html"
+        type: string
+      - name: texts_006
+        label: "文字：教学｜Design Studio"
+        type: text
+      - name: texts_007
+        label: "文字：01 场所 Place"
+        type: text
+      - name: texts_008
+        label: "文字：从场地观察开始，结合南京老城区街巷、河岸、建筑肌理与公共空间，形成场地模型、图底分析和初步"
+        type: text
+      - name: links_006
+        label: "链接：media/2026/11/studio-page-29.jpg"
+        type: string
+      - name: images_000
+        label: "图片：场所 Place"
+        type: image
+      - name: alt_images_000
+        label: "图片说明：场所 Place"
+        type: string
+      - name: texts_009
+        label: "文字：学生：朱佳真"
+        type: text
+      - name: links_007
+        label: "链接：media/2026/11/studio-page-30.jpg"
+        type: string
+      - name: images_001
+        label: "图片：场所 Place"
+        type: image
+      - name: alt_images_001
+        label: "图片说明：场所 Place"
+        type: string
+      - name: texts_010
+        label: "文字：学生：李翔宇"
+        type: text
+      - name: links_008
+        label: "链接：media/2026/11/studio-page-31.jpg"
+        type: string
+      - name: images_002
+        label: "图片：场所 Place"
+        type: image
+      - name: alt_images_002
+        label: "图片说明：场所 Place"
+        type: string
+      - name: texts_011
+        label: "文字：学生：李锶涵"
+        type: text
+      - name: links_009
+        label: "链接：media/2026/11/place-li-sihan-01.jpg"
+        type: string
+      - name: images_003
+        label: "图片：李锶涵学生作业"
+        type: image
+      - name: alt_images_003
+        label: "图片说明：李锶涵学生作业"
+        type: string
+      - name: texts_012
+        label: "文字：学生：赵峻柯"
+        type: text
+      - name: links_010
+        label: "链接：media/2026/11/place-zhao-junke-01.jpg"
+        type: string
+      - name: images_004
+        label: "图片：赵峻柯学生作业"
+        type: image
+      - name: alt_images_004
+        label: "图片说明：赵峻柯学生作业"
+        type: string
+      - name: texts_013
+        label: "文字：02 结构 Structure"
+        type: text
+      - name: texts_014
+        label: "文字：在前一阶段的场所设计基础上，研究建筑结构体系。作品以南京老门西高密度历史街区为背景，展示木"
+        type: text
+      - name: links_011
+        label: "链接：media/2026/11/studio-page-32.jpg"
+        type: string
+      - name: images_005
+        label: "图片：结构 Structure"
+        type: image
+      - name: alt_images_005
+        label: "图片说明：结构 Structure"
+        type: string
+      - name: texts_015
+        label: "文字：学生：鲁瑞琪"
+        type: text
+      - name: links_012
+        label: "链接：media/2026/11/studio-page-33.jpg"
+        type: string
+      - name: images_006
+        label: "图片：结构 Structure"
+        type: image
+      - name: alt_images_006
+        label: "图片说明：结构 Structure"
+        type: string
+      - name: links_013
+        label: "链接：media/2026/11/studio-page-34.jpg"
+        type: string
+      - name: images_007
+        label: "图片：结构 Structure"
+        type: image
+      - name: alt_images_007
+        label: "图片说明：结构 Structure"
+        type: string
+      - name: texts_016
+        label: "文字：学生：Dong Yufei"
+        type: text
+      - name: links_014
+        label: "链接：media/2026/11/studio-page-35.jpg"
+        type: string
+      - name: images_008
+        label: "图片：结构 Structure"
+        type: image
+      - name: alt_images_008
+        label: "图片说明：结构 Structure"
+        type: string
+      - name: links_015
+        label: "链接：media/2026/11/studio-page-36.jpg"
+        type: string
+      - name: images_009
+        label: "图片：结构 Structure"
+        type: image
+      - name: alt_images_009
+        label: "图片说明：结构 Structure"
+        type: string
+      - name: texts_017
+        label: "文字：学生：王雨潇"
+        type: text
+      - name: links_016
+        label: "链接：media/2026/11/structure-wang-yuxiao-01.jpg"
+        type: string
+      - name: images_010
+        label: "图片：王雨潇学生作业"
+        type: image
+      - name: alt_images_010
+        label: "图片说明：王雨潇学生作业"
+        type: string
+      - name: texts_018
+        label: "文字：学生：赵峻柯"
+        type: text
+      - name: links_017
+        label: "链接：media/2026/11/structure-zhao-junke-01.jpg"
+        type: string
+      - name: images_011
+        label: "图片：赵峻柯学生作业"
+        type: image
+      - name: alt_images_011
+        label: "图片说明：赵峻柯学生作业"
+        type: string
+      - name: texts_019
+        label: "文字：03 围护 Envelope"
+        type: text
+      - name: texts_020
+        label: "文字：围绕建筑外立面与空间边界，研究河岸景观、相邻历史建筑、柱网节奏、开窗和阳台的关系，并通过效"
+        type: text
+      - name: links_018
+        label: "链接：media/2026/11/studio-page-37.jpg"
+        type: string
+      - name: images_012
+        label: "图片：围护 Envelope"
+        type: image
+      - name: alt_images_012
+        label: "图片说明：围护 Envelope"
+        type: string
+      - name: texts_021
+        label: "文字：学生：毛敬言"
+        type: text
+      - name: links_019
+        label: "链接：media/2026/11/studio-page-38.jpg"
+        type: string
+      - name: images_013
+        label: "图片：围护 Envelope"
+        type: image
+      - name: alt_images_013
+        label: "图片说明：围护 Envelope"
+        type: string
+      - name: texts_022
+        label: "文字：学生：徐友璐"
+        type: text
+      - name: links_020
+        label: "链接：media/2026/11/studio-page-39.jpg"
+        type: string
+      - name: images_014
+        label: "图片：围护 Envelope"
+        type: image
+      - name: alt_images_014
+        label: "图片说明：围护 Envelope"
+        type: string
+      - name: texts_023
+        label: "文字：学生：赵峻柯"
+        type: text
+      - name: links_021
+        label: "链接：media/2026/11/b19-e8b5b5e5b3bbe69faf.jpg"
+        type: string
+      - name: images_015
+        label: "图片：赵峻柯围护设计作品"
+        type: image
+      - name: alt_images_015
+        label: "图片说明：赵峻柯围护设计作品"
+        type: string
+      - name: texts_024
+        label: "文字：学生：卞翔宇"
+        type: text
+      - name: links_022
+        label: "链接：media/2026/11/c20-e58d9ee7bf94e5ae87.jpg"
+        type: string
+      - name: images_016
+        label: "图片：卞翔宇围护设计作品"
+        type: image
+      - name: alt_images_016
+        label: "图片说明：卞翔宇围护设计作品"
+        type: string
+      - name: texts_025
+        label: "文字：04 功能 Program"
+        type: text
+      - name: texts_026
+        label: "文字：以功能组织和面积分配为重点，运用楼层平面、剖面、体量模型与面积表讨论不同使用需求和空间序列"
+        type: text
+      - name: links_023
+        label: "链接：media/2026/11/studio-page-40.jpg"
+        type: string
+      - name: images_017
+        label: "图片：功能 Program"
+        type: image
+      - name: alt_images_017
+        label: "图片说明：功能 Program"
+        type: string
+      - name: texts_027
+        label: "文字：学生：Jiangyu"
+        type: text
+      - name: links_024
+        label: "链接：media/2026/11/studio-page-41.jpg"
+        type: string
+      - name: images_018
+        label: "图片：功能 Program"
+        type: image
+      - name: alt_images_018
+        label: "图片说明：功能 Program"
+        type: string
+      - name: texts_028
+        label: "文字：学生：毛敬言"
+        type: text
+      - name: links_025
+        label: "链接：media/2026/11/studio-page-42.jpg"
+        type: string
+      - name: images_019
+        label: "图片：功能 Program"
+        type: image
+      - name: alt_images_019
+        label: "图片说明：功能 Program"
+        type: string
+      - name: texts_029
+        label: "文字：学生：Zhu Jiazhen"
+        type: text
+      - name: links_026
+        label: "链接：media/2026/11/program-zhu-jiazhen-01.jpg"
+        type: string
+      - name: images_020
+        label: "图片：Zhu Jiazhen学生作业"
+        type: image
+      - name: alt_images_020
+        label: "图片说明：Zhu Jiazhen学生作业"
+        type: string
+      - name: links_027
+        label: "链接：media/2026/11/program-zhu-jiazhen-02.jpg"
+        type: string
+      - name: images_021
+        label: "图片：Zhu Jiazhen学生作业"
+        type: image
+      - name: alt_images_021
+        label: "图片说明：Zhu Jiazhen学生作业"
+        type: string
+      - name: texts_030
+        label: "文字：学生：王雨潇"
+        type: text
+      - name: links_028
+        label: "链接：media/2026/11/program-wang-yuxiao-01.jpg"
+        type: string
+      - name: images_022
+        label: "图片：王雨潇学生作业"
+        type: image
+      - name: alt_images_022
+        label: "图片说明：王雨潇学生作业"
+        type: string
+      - name: texts_031
+        label: "文字：05 材料 Materiality"
+        type: text
+      - name: texts_032
+        label: "文字：比较砂浆、木材、瓦、混凝土和砖等材料的质感与光线表现，研究室内氛围、结构表达和使用空间之间"
+        type: text
+      - name: links_029
+        label: "链接：media/2026/11/studio-page-43.jpg"
+        type: string
+      - name: images_023
+        label: "图片：材料 Materiality"
+        type: image
+      - name: alt_images_023
+        label: "图片说明：材料 Materiality"
+        type: string
+      - name: texts_033
+        label: "文字：学生：Guo Yinyin"
+        type: text
+      - name: links_030
+        label: "链接：media/2026/11/studio-page-44.jpg"
+        type: string
+      - name: images_024
+        label: "图片：材料 Materiality"
+        type: image
+      - name: alt_images_024
+        label: "图片说明：材料 Materiality"
+        type: string
+      - name: links_031
+        label: "链接：media/2026/11/materiality-guo-yinyin-02.jpg"
+        type: string
+      - name: images_025
+        label: "图片：Guo Yinyin材料作业第二页"
+        type: image
+      - name: alt_images_025
+        label: "图片说明：Guo Yinyin材料作业第二页"
+        type: string
+      - name: texts_034
+        label: "文字：学生：Ji Tianyu"
+        type: text
+      - name: links_032
+        label: "链接：media/2026/11/studio-page-45.jpg"
+        type: string
+      - name: images_026
+        label: "图片：材料 Materiality"
+        type: image
+      - name: alt_images_026
+        label: "图片说明：材料 Materiality"
+        type: string
+      - name: links_033
+        label: "链接：media/2026/11/studio-page-46.jpg"
+        type: string
+      - name: images_027
+        label: "图片：材料 Materiality"
+        type: image
+      - name: alt_images_027
+        label: "图片说明：材料 Materiality"
+        type: string
+      - name: texts_035
+        label: "文字：学生：Wang Heyun"
+        type: text
+      - name: links_034
+        label: "链接：media/2026/11/materiality-wang-heyun-01.jpg"
+        type: string
+      - name: images_028
+        label: "图片：Wang Heyun学生作业"
+        type: image
+      - name: alt_images_028
+        label: "图片说明：Wang Heyun学生作业"
+        type: string
+      - name: links_035
+        label: "链接：media/2026/11/materiality-wang-heyun-02.jpg"
+        type: string
+      - name: images_029
+        label: "图片：Wang Heyun学生作业"
+        type: image
+      - name: alt_images_029
+        label: "图片说明：Wang Heyun学生作业"
+        type: string
+      - name: texts_036
+        label: "文字：学生：Luo Yuanfeng"
+        type: text
+      - name: links_036
+        label: "链接：media/2026/11/materiality-luo-yuanfeng-01.jpg"
+        type: string
+      - name: images_030
+        label: "图片：Luo Yuanfeng学生作业"
+        type: image
+      - name: alt_images_030
+        label: "图片说明：Luo Yuanfeng学生作业"
+        type: string
+      - name: links_037
+        label: "链接：media/2026/11/materiality-luo-yuanfeng-02.jpg"
+        type: string
+      - name: images_031
+        label: "图片：Luo Yuanfeng学生作业"
+        type: image
+      - name: alt_images_031
+        label: "图片说明：Luo Yuanfeng学生作业"
+        type: string
+      - name: texts_037
+        label: "文字：06 综合设计 Project"
+        type: text
+      - name: texts_038
+        label: "文字：综合前述场所、结构、围护、功能与材料研究，形成完整的建筑设计表达。作品包括南京河岸社区方案"
+        type: text
+      - name: links_038
+        label: "链接：media/2026/11/studio-page-47.jpg"
+        type: string
+      - name: images_032
+        label: "图片：综合设计 Project"
+        type: image
+      - name: alt_images_032
+        label: "图片说明：综合设计 Project"
+        type: string
+      - name: texts_039
+        label: "文字：学生：Ding Xin"
+        type: text
+      - name: links_039
+        label: "链接：media/2026/11/studio-page-48.jpg"
+        type: string
+      - name: images_033
+        label: "图片：综合设计 Project"
+        type: image
+      - name: alt_images_033
+        label: "图片说明：综合设计 Project"
+        type: string
+      - name: links_040
+        label: "链接：media/2026/11/studio-page-49.jpg"
+        type: string
+      - name: images_034
+        label: "图片：综合设计 Project"
+        type: image
+      - name: alt_images_034
+        label: "图片说明：综合设计 Project"
+        type: string
+      - name: links_041
+        label: "链接：media/2026/11/studio-page-50.jpg"
+        type: string
+      - name: images_035
+        label: "图片：综合设计 Project"
+        type: image
+      - name: alt_images_035
+        label: "图片说明：综合设计 Project"
+        type: string
+      - name: texts_040
+        label: "文字：学生：Zhang Junyi"
+        type: text
+      - name: links_042
+        label: "链接：media/2026/11/studio-page-51.jpg"
+        type: string
+      - name: images_036
+        label: "图片：综合设计 Project"
+        type: image
+      - name: alt_images_036
+        label: "图片说明：综合设计 Project"
+        type: string
+      - name: links_043
+        label: "链接：media/2026/11/studio-page-52.jpg"
+        type: string
+      - name: images_037
+        label: "图片：综合设计 Project"
+        type: image
+      - name: alt_images_037
+        label: "图片说明：综合设计 Project"
+        type: string
+      - name: links_044
+        label: "链接：media/2026/11/studio-page-53.jpg"
+        type: string
+      - name: images_038
+        label: "图片：综合设计 Project"
+        type: image
+      - name: alt_images_038
+        label: "图片说明：综合设计 Project"
+        type: string
+      - name: texts_041
+        label: "文字：学生：卞翔宇"
+        type: text
+      - name: links_045
+        label: "链接：media/2026/11/project-bian-xiangyu-01.jpg"
+        type: string
+      - name: images_039
+        label: "图片：卞翔宇学生作业"
+        type: image
+      - name: alt_images_039
+        label: "图片说明：卞翔宇学生作业"
+        type: string
+      - name: links_046
+        label: "链接：media/2026/11/project-bian-xiangyu-02.jpg"
+        type: string
+      - name: images_040
+        label: "图片：卞翔宇学生作业"
+        type: image
+      - name: alt_images_040
+        label: "图片说明：卞翔宇学生作业"
+        type: string
+      - name: links_047
+        label: "链接：media/2026/11/project-bian-xiangyu-03.jpg"
+        type: string
+      - name: images_041
+        label: "图片：卞翔宇学生作业"
+        type: image
+      - name: alt_images_041
+        label: "图片说明：卞翔宇学生作业"
+        type: string
+      - name: texts_042
+        label: "文字：学生：Zhang Xujia"
+        type: text
+      - name: links_048
+        label: "链接：media/2026/11/project-zhang-xujia-01.jpg"
+        type: string
+      - name: images_042
+        label: "图片：Zhang Xujia学生作业"
+        type: image
+      - name: alt_images_042
+        label: "图片说明：Zhang Xujia学生作业"
+        type: string
+      - name: links_049
+        label: "链接：media/2026/11/project-zhang-xujia-02.jpg"
+        type: string
+      - name: images_043
+        label: "图片：Zhang Xujia学生作业"
+        type: image
+      - name: alt_images_043
+        label: "图片说明：Zhang Xujia学生作业"
+        type: string
